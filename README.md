@@ -1,37 +1,95 @@
 # 电影院网上售票系统
 
-#### 介绍
+## 1、项目介绍
+
 电影院网上售票系统拥有三种角色，用户、工作人员、管理员
 
-#### 软件架构
-软件架构说明
+用户：查看电影、电影厅信息，购买电影票，订单查询，收藏管理等
+
+工作人员：购票订单管理、购物订单管理、留言管理
+
+管理员：用户管理、咨询管理、类型管理、电影管理、影厅管理、排片场次管理、座位管理、订单管理、商品管理等
 
 
-#### 安装教程
+## 2、项目技术
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+后端框架： Servlet、mvc模式
 
-#### 使用说明
+前端框架：jsp、css、JavaScript、JQuery
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 3、开发环境
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+- JAVA版本：JDK1.8，其它版本理论上可以
+- IDE类型：IDEA、Eclipse、Myeclipse都可以。推荐IDEA与Eclipse
+- tomcat版本：Tomcat 7.x、8.x、9.x版本均可
+- 数据库版本：MySql 5.5-5.7
+- maven项目：否
+- 硬件环境：Windows 或者 Mac OS
 
 
-#### 特技
+## 4、功能介绍
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### 4.1 登录
+
+![前端登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292215444.jpg)
+
+![后台登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292215644.jpg)
+
+### 4.2 前台模块
+
+![前台-电影信息](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216604.jpg)
+
+![前台-电影厅信息](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216603.jpg)
+
+![前台-商品信息](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216872.jpg)
+
+### 4.3 用户模块
+
+![前台-在线订票](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216906.jpg)
+
+![用户-个人资料](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216730.jpg)
+
+![用户-购票订单管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216798.jpg)
+
+![用户-购物订单管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216799.jpg)
+
+![用户-收藏管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216585.jpg)
+
+用户可以前台浏览电影信息，电影订票，多条件查询订单信息，还可以查看收藏的电影，评论电影，支付等功能
+
+### 4.4 工作人员模块
+
+![工作人员-购票订单管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292217488.jpg)
+
+![工作人员-购物订单管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292217207.jpg)
+
+![工作人员-留言管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292217422.jpg)
+
+工作人员可以多条件筛选购票和购物订单信息，并能够增删改查。同时工作人员还可以查看用户留言，并能够删除和回复留言信息
+
+### 4.5 管理员模块
+
+![管理员-电影管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292218990.jpg)
+
+![管理员-电影类型管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292218501.jpg)
+
+![管理员-影厅管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292218846.jpg)
+
+![管理员-用户管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292218203.jpg)
+
+![管理员-座位信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292218302.jpg)
+
+- 电影管理：管理员可以增删改查电影信息，还可以导出为excel表格、在线播放电影，管理电影评论
+- 电影类型管理：管理员可以增删改查电影类型信息
+- 影厅管理：管理员可以增删改查影厅信息
+- 用户管理：管理员可以根据用户名和姓名等条件查询用户信息，并能执行增删改操作
+- 座位管理：管理员可以根据座位号、状态、电影编号、电影放映时间等条件查询座位，并能执行增删改操作
+
+## 5、获取方式
+
+扫描下方，回复关键词  ： “**电影1**”   
+
+
+
+![https://gitee.com/](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
+
