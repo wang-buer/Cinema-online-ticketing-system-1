@@ -1,4 +1,10 @@
-# 电影院网上售票系统
+# 电影院网上售票系统1
+
+## 获取方式
+
+下方扫一扫关注后，后台回复关键词：**电影**，查看导入教程视频、sql脚本和源码等
+
+ ![](https://www.codeshop.fun/Typora-Images/202205281253739.png)
 
 ## 1、项目介绍
 
@@ -31,65 +37,57 @@
 
 ### 4.1 登录
 
-![前端登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292215444.jpg)
+![前端登录](https://www.codeshop.fun/Typora-Images/202205292215444.jpg)
 
-![后台登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292215644.jpg)
+![后台登录](https://www.codeshop.fun/Typora-Images/202205292215644.jpg)
 
 ### 4.2 前台模块
 
-![前台-电影信息](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216604.jpg)
+![前台-电影信息](https://www.codeshop.fun/Typora-Images/202205292216604.jpg)
 
-![前台-电影厅信息](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216603.jpg)
+![前台-电影厅信息](https://www.codeshop.fun/Typora-Images/202205292216603.jpg)
 
-![前台-商品信息](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216872.jpg)
+![前台-商品信息](https://www.codeshop.fun/Typora-Images/202205292216872.jpg)
 
 ### 4.3 用户模块
 
-![前台-在线订票](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216906.jpg)
+![前台-在线订票](https://www.codeshop.fun/Typora-Images/202205292216906.jpg)
 
-![用户-个人资料](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216730.jpg)
+![用户-个人资料](https://www.codeshop.fun/Typora-Images/202205292216730.jpg)
 
-![用户-购票订单管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216798.jpg)
+![用户-购票订单管理](https://www.codeshop.fun/Typora-Images/202205292216798.jpg)
 
-![用户-购物订单管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216799.jpg)
+![用户-购物订单管理](https://www.codeshop.fun/Typora-Images/202205292216799.jpg)
 
-![用户-收藏管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292216585.jpg)
+![用户-收藏管理](https://www.codeshop.fun/Typora-Images/202205292216585.jpg)
 
 用户可以前台浏览电影信息，电影订票，多条件查询订单信息，还可以查看收藏的电影，评论电影，支付等功能
 
 ### 4.4 工作人员模块
 
-![工作人员-购票订单管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292217488.jpg)
+![工作人员-购票订单管理](https://www.codeshop.fun/Typora-Images/202205292217488.jpg)
 
-![工作人员-购物订单管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292217207.jpg)
+![工作人员-购物订单管理](https://www.codeshop.fun/Typora-Images/202205292217207.jpg)
 
-![工作人员-留言管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292217422.jpg)
+![工作人员-留言管理](https://www.codeshop.fun/Typora-Images/202205292217422.jpg)
 
 工作人员可以多条件筛选购票和购物订单信息，并能够增删改查。同时工作人员还可以查看用户留言，并能够删除和回复留言信息
 
 ### 4.5 管理员模块
 
-![管理员-电影管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292218990.jpg)
+![管理员-电影管理](https://www.codeshop.fun/Typora-Images/202205292218990.jpg)
 
-![管理员-电影类型管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292218501.jpg)
+![管理员-电影类型管理](https://www.codeshop.fun/Typora-Images/202205292218501.jpg)
 
-![管理员-影厅管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292218846.jpg)
+![管理员-影厅管理](https://www.codeshop.fun/Typora-Images/202205292218846.jpg)
 
-![管理员-用户管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292218203.jpg)
+![管理员-用户管理](https://www.codeshop.fun/Typora-Images/202205292218203.jpg)
 
-![管理员-座位信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205292218302.jpg)
+![管理员-座位信息管理](https://www.codeshop.fun/Typora-Images/202205292218302.jpg)
 
 - 电影管理：管理员可以增删改查电影信息，还可以导出为excel表格、在线播放电影，管理电影评论
 - 电影类型管理：管理员可以增删改查电影类型信息
 - 影厅管理：管理员可以增删改查影厅信息
 - 用户管理：管理员可以根据用户名和姓名等条件查询用户信息，并能执行增删改操作
 - 座位管理：管理员可以根据座位号、状态、电影编号、电影放映时间等条件查询座位，并能执行增删改操作
-
-## 5、获取方式
-
-扫描下方，回复关键词  ： “**电影1**”   
-
-
-
-![https://gitee.com/](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
 
